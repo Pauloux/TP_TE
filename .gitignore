@@ -1,7 +1,7 @@
-Groupe 1 - Compte rendu.aux
-Groupe 1 - Compte rendu.log
-Groupe 1 - Compte rendu.out
-Groupe 1 - Compte rendu.pdf
-Groupe 1 - Compte rendu.synctex.gz
-Groupe 1 - Compte rendu.toc
+*.aux
+*.log
+*.out
+*.pdf
+*.synctex.gz
+*.toc
 *.FCBak

@@ -10,6 +10,8 @@
 \usepackage{mathtools} %Pour les maths
 \usepackage{rotating} %Pour les figures penchées
 \usepackage{siunitx} %Pour les unités
+\usepackage{multirow}
+
 
 \hypersetup{
  colorlinks=true,
@@ -102,12 +104,59 @@ Sur le schéma nous avons modélisé en vert et en marron la terre qui englobe u
 \subsubsection{Mesures relevées}
 
 
+Pour réaliser l'étude thermique nous avons relevés différentes données concernant le batiment. Pour cela nous étions équipés d'une caméra thermique afin de mesurer la température des différentes paroies, et également d'un mètre pour mesurer les surfaces. \\
 
 
+Concernant la mesure des surfaces des différents matériaux, nous avons relevé les données suivantes : 
+
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{|c|c|}
+    \hline
+        Matériaux & Surface totale ($m^{2}$) \\ \hline \hline
+        Mur & 3,5 \\ \hline
+        Carrelage & 0,65 \\ \hline
+        Vitre & 2,54 \\ \hline
+        Montant en aluminium & 1,04 \\ \hline
+    \end{tabular}
+\end{table}
+
+Nous avons également mesuré l'épaisseur totale de chaque matériaux. Pour cela nous étudions la composition de chacun d'entre eux qui sera d'avantage détaillé par la suite (voir partie "2.2 Composition des murs et fenêtres").
+
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{|c|c|c|}
+    \hline
+         \multicolumn{2}{|c|}{Matériaux} & Épaisseur totale (cm) \\ \hline  \hline
+        \multirow{5}{*}{Mur}& Plâtre & 1,25 \\ 
+        &Laine de verre & 6,5 \\ 
+        &Béton  & 20 \\
+        &Crépis & 1 \\ 
+        &Carrelage & 0,7 \\ \hline
+                \multicolumn{2}{|c|}{Vitre}& 1,4 \\ \hline
+        \multicolumn{2}{|c|}{Montant en aluminium} & 2,8 \\ \hline
+    \end{tabular}
+\end{table}
 
 
+Nous avon également relevé les valeurs des températures intérieurs et extérieurs des différentes paroies. 
 
+%% VERIFIER LES VALEURS 
 
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{|c|c|c|}
+    \hline
+         \multirow{2}{*}{Matériaux} & \multicolumn{2}{c|}{Température (en °C)}\\         ~ & Extérieur & Intérieur \\ \hline \hline
+        Mur & 11,7 & 22,9 \\ \hline
+        Carrelage & 12,3 & X \\ \hline
+        Vitre & 12,5 & 20,9 \\ \hline
+        Montant aluminium & 15,3 & 15,3 \\ \hline
+    \end{tabular}
+\end{table}
+
+La température intérieur des surfaces avec du carrelage est la même que sans le carrelage à l'extérieur. \\
+Nous avons réalisé les mesures le 15/08/23 avec une température ambiante à l'intérieur de 21°C et de 11°C à l'extérieur.\\
 
 
 
